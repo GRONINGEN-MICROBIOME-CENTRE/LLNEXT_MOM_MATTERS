@@ -218,6 +218,7 @@ Metadata (including questionnaire and clinical information) together with qualit
 - **EGAD50000001187** — Fecal samples
 - **EGAD50000002469** — Breast milk and vaginal samples
 - **EGAD50000002677** — Metadata
+- **EGAD50000000531** - HMOs
 
 Access can be requested through the Lifelines NEXT application form:
 
