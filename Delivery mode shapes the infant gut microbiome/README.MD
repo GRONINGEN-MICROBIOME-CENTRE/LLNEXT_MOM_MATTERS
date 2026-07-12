@@ -1,6 +1,18 @@
-#### Part 2: The composition and function of the infant gut microbiome are primarily shaped by the mode of delivery, followed by feeding mode, with additional influences from parity, pre-pregnancy smoking, infections, and diet
-- MEFISTO analysis 
-- PERMANOVA of single timepoints 
-- TCAM analysis 
-- Associations of predictors with SGB's, alpha diversity, pathways
-- Scripts pertaining to figures: Figure 2, S4
+## Delivery mode shapes the infant gut microbiome
+
+Scripts investigating the impact of delivery mode on infant microbiome development.
+
+Includes:
+
+- MEFISTO analysis in relation to predictors
+- TCAM analysis in relation to predictors
+- PERMANOVA analyses in relation to predictors
+- Associations between clinical predictors and:
+  - Species-level genome bins (SGBs)
+  - Alpha diversity
+  - Functional pathways
+
+**Figures**
+
+- Figure 2
+- Extended Data 4

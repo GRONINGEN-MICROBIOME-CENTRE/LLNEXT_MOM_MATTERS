@@ -1,4 +1,18 @@
-#### Part 7: The maternal gut microbiome is a major reservoir of infant gut strains, with occasional transmission from vaginal and breast milk microbiomes
-- Strain transmission of gut strains and its association with time point, predictors and abundances in mothers and infants 
-- Strain transmission of breastmilk and vaginal strains
-- Scripts pertaining to figures: Figure 5, 6, S7, S8
+
+## Mother–infant strain sharing
+
+Scripts investigating microbial strain transmission between mothers and infants.
+
+Includes:
+
+- Maternal gut strain transmission
+- Breast milk strain transmission
+- Vaginal strain transmission
+- Associations between strain sharing, time, microbial abundance and persistance and clinical predictors
+
+**Figures**
+
+- Figure 5
+- Extended Data 7
+- Extended Data 8
+- Extended Data 9
