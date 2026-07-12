@@ -9,7 +9,7 @@ Code accompanying:
 # Table of Contents
 
 - [Overview](#overview)
-- [Cohort] (#Cohort)
+- [Cohort](#Cohort)
 - [Repository structure](#repository-structure)
   - [General scripts](#general-scripts)
   - [Mother–infant gut microbiome in Lifelines NEXT](#motherinfant-gut-microbiome-in-lifelines-next)
