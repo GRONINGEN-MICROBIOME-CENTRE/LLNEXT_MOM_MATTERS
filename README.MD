@@ -122,7 +122,7 @@ Scripts investigating birth-related environmental factors influencing the infant
 
 ---
 
-## Infant feeding and neuroactive potential
+## Infant feeding, HMOs and neuroactive potential
 
 Scripts investigating associations between infant feeding and microbial neuroactive potential.
 
