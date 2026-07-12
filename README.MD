@@ -1,52 +1,231 @@
-# Mom Matters: Maternal influences on infant gut microbiome and health in 714 mother-infant pairs in the Lifelines NEXT cohort 
+# Mom Matters: Maternal influences on infant gut microbiome and health in 714 mother–infant pairs in the Lifelines NEXT cohort
 
-- Authors: Trishla Sinha, Alexander Kurilshikov, Sergio Andreu-Sánchez, Cyrus A. Mallon, Asier Fernández-Pato, Nataliia Kuzub
+Code accompanying:
 
-#### General_scripts 
-- Functions used accross the manuscipt and demo data 
+> **Sinha T. et al. (2026).** *Maternal influences on infant gut microbiome and health in 714 mother–infant pairs in the Lifelines NEXT cohort.*
 
-#### Part 1: Maternal gut microbiome is largely stable during pregnancy and postpartum whereas infant gut microbiome is highly dynamic
-- Creating summary stats of predictors and cleaning of predictors 
-- PCoA analysis overall composition mothers and infants 
-- Inter and intra individual distance comparisons
-- Community clustering analysis 
-- Scripts pertaining to figures: Figure 1, S1, S2, S3
+---
 
-#### Part 2: The composition and function of the infant gut microbiome are primarily shaped by the mode of delivery, followed by feeding mode, with additional influences from parity, pre-pregnancy smoking, infections, and diet
-- MEFISTO analysis 
-- PERMANOVA of single timepoints 
-- TCAM analysis 
-- Associations of predictors with SGB's, alpha diversity, pathways in infants 
-- Scripts pertaining to figures: Figure 2, S4
+# Table of Contents
 
-#### Part 3: Characteristics of a complicated labor are associated with a decreased abundance of Bacteroides in vaginal deliveries
-- Scripts pertaining to figures: Figure 3
+- [Overview](#overview)
+- [Repository structure](#repository-structure)
+  - [General scripts](#general-scripts)
+  - [Mother–infant gut microbiome in Lifelines NEXT](#motherinfant-gut-microbiome-in-lifelines-next)
+  - [Delivery mode shapes the infant gut microbiome](#delivery-mode-shapes-the-infant-gut-microbiome)
+  - [Birth environment and the infant microbiome](#birth-environment-and-the-infant-microbiome)
+  - [Infant feeding and neuroactive potential](#infant-feeding-and-neuroactive-potential)
+  - [Infant carbohydrate-active enzymes (CAZymes)](#infant-carbohydrate-active-enzymes-cazymes)
+  - [Maternal microbiome predicts eczema](#maternal-microbiome-predicts-eczema)
+  - [Mother–infant strain sharing](#motherinfant-strain-sharing)
+  - [Infant intraspecies phylogenies](#infant-intraspecies-phylogenies)
+- [Data availability](#data-availability)
+- [Contact](#contact)
+
+---
+
+# Overview
+
+This repository contains the scripts used for the analyses presented in:
+
+**Sinha T. et al. (2026).** *Maternal influences on infant gut microbiome and health in 714 mother–infant pairs in the Lifelines NEXT cohort.*
+
+The repository includes code for data preprocessing, statistical analyses, visualization, and figure generation used throughout the manuscript.
+
+---
+
+# Repository structure
+
+## General scripts
+
+General utility functions and helper scripts used throughout the manuscript, including:
+
+- Shared functions
+- Plotting functions
+- Demo datasets
+
+---
+
+## Mother–infant gut microbiome in Lifelines NEXT
+
+Scripts for the overall characterization of the maternal and infant gut microbiome.
+
+Includes:
+
+- Cleaning and preprocessing of metadata
+- Creation of cohort summary statistics
+- Principal Coordinates Analysis
+- Overall microbiome composition analyses
+- Associaion of maternal and infant microbiome with time point
+- Inter- and intra-individual distance analyses
+- Community clustering analyses
+
+**Figures**
+
+- Figure 1
+- Extended Data 1
+- Extended Data 2
+- Extended Data 3
+
+---
+
+## Delivery mode shapes the infant gut microbiome
+
+Scripts investigating the impact of delivery mode on infant microbiome development.
+
+Includes:
+
+- MEFISTO analysis in relation to predictors
+- TCAM analysis in relation to predictors
+- PERMANOVA analyses in relation to predictors
+- Associations between clinical predictors and:
+  - Species-level genome bins (SGBs)
+  - Alpha diversity
+  - Functional pathways
+
+**Figures**
+
+- Figure 2
+- Extended Data 4
+
+---
+
+## Birth environment and the infant microbiome
+
+Scripts investigating birth-related environmental factors influencing the infant microbiome.
+
+**Figures**
+
+- Figure 3
+
+---
+
+## Infant feeding and neuroactive potential
+
+Scripts investigating associations between infant feeding and microbial neuroactive potential.
+
+Includes:
+
+- Associations between predictors and human milk oligosaccharides (HMOs)
+- Associations between predictors and gut–brain modules (GBMs)
+
+**Figures**
+
+- Extended Data 5
+
+---
+
+## Infant carbohydrate-active enzymes (CAZymes)
+
+Scripts related to carbohydrate-active enzyme analyses.
+
+Includes:
+
+- Cleaning CAZyme annotations
+- Associations between CAZymes and SGBs
+- Longitudinal analyses of CAZymes across time
+- Associations of CAZymes with infant predictors
+- CAZyme substrate analyses
+
+**Figures**
+
+- Figure 3
+- Extended Data 5
+- Extended Data 6
+
+---
+
+## Maternal microbiome predicts eczema
+
+Scripts investigating maternal microbiome characteristics associated with infant eczema.
+
+Includes:
+
+- Associations between maternal predictors and:
+  - SGBs
+  - Alpha diversity
+  - Functional pathways
+- Maternal microbiome prediction models for infant eczema
+
+**Figures**
+
+- Figure 4
+
+---
+
+## Mother–infant strain sharing
+
+Scripts investigating microbial strain transmission between mothers and infants.
+
+Includes:
+
+- Maternal gut strain transmission
+- Breast milk strain transmission
+- Vaginal strain transmission
+- Associations between strain sharing, time, microbial abundance and persistance and clinical predictors
+
+**Figures**
+
+- Figure 5
+- Extended Data 7
+- Extended Data 8
+- Extended Data 9
+
+---
+
+## Infant intraspecies phylogenies
+
+Scripts for phylogenetic analyses of infant microbial populations.
+
+Includes:
+
+- PGLMM analyses
+
+**Figures**
+
+- Extended Data 10
+
+---
+
+# Data availability
+
+Quality-trimmed, human-decontaminated shotgun metagenomic sequencing data are publicly available through the NCBI Sequence Read Archive (SRA) under accession **PRJNA1468137**.
+
+Metadata (including questionnaire and clinical information) together with quality-trimmed, human-decontaminated sequencing reads are available through the European Genome-Phenome Archive (EGA):
+
+- **EGAD50000001187** — Fecal samples
+- **EGAD50000002469** — Breast milk and vaginal samples
+- **EGAD50000002677** — Metadata
+
+Access can be requested through the Lifelines NEXT application form:
+
+https://forms.gle/A4Jem2rMnjcygWRD6
+
+Access is available to qualified researchers under the Lifelines NEXT Data Access Agreement:
+
+https://groningenmicrobiome.org/?page_id=2598
+
+This controlled-access procedure ensures that metadata are used exclusively for scientific research purposes and in accordance with the informed consent provided by Lifelines NEXT participants.
+
+Detailed instructions describing the EGA application procedure are available at:
+
+https://github.com/GRONINGEN-MICROBIOME-CENTRE/LLNEXT_pilot/blob/main/Data_Access_EGA.md
+
+No fees are associated with access to the sequencing data or metadata.
+
+Metagenome-assembled genomes (MAGs) recovered from fecal samples are publicly available through Zenodo:
+
+https://zenodo.org/records/18965233
 
 
-#### Part 4: Infant feeding practices, but not breast milk HMO concentrations, are associated with the infant gut microbiome and its neuroactive potential 
-- Associations of predictors with HMO profile in infants 
-- Associations of predictors with GBM in infants 
-- Scripts pertaining to figures: S5
+---
 
-#### Part 5: The infant CAZyme profile is highly dynamic during the first year of life and is shaped by the presence of Bacteroides, Parabacteroides, and Phocaeicola
-- Cleaning CAZYme data
-- Associations of CAZYmes with SGB's in mothers and infants 
-- Associations of CAZYmes with time point in mothers and infants 
-- Associations of CAZYmes with predictors in infants 
-- CAZYme subtrate analysis
-- Scripts pertaining to figures:Figure 3, S5, S6
+# Contact
 
-#### Part 6: Maternal gut microbiome is predictive of infant eczema 
-- Associations of predictors with SGB's, alpha diversity, pathways in mothers 
-- Prediction of eczema from maternal microbiome 
-- Scripts pertaining to figures: Figure 4
+For questions regarding the analysis workflow or datasets, please contact:
 
+**Trishla Sinha, MD, PhD**  
+University Medical Center Groningen  
+Groningen Microbiome Centre
 
-#### Part 7: The maternal gut microbiome is a major reservoir of infant gut strains, with occasional transmission from vaginal and breast milk microbiomes
-- Strain transmission of gut strains and its association with time point, predictors and abundances in mothers and infants 
-- Strain transmission of breastmilk and vaginal strains
-- Scripts pertaining to figures: Figure 5, 6, S7, S8
-
-#### Part 8: Infant microbial intraspecies phylogenies are associated with time, parity and infant complementary food
-- PGLMM analysis 
-- Scripts pertaining to figures: Figure S9 
+📧 t.sinha@rug.nl
