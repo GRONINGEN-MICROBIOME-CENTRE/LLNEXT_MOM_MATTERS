@@ -159,13 +159,14 @@ Includes:
 
 ## Maternal microbiome predicts eczema
 
-Scripts investigating maternal microbiome characteristics associated with infant eczema.
+Scripts investigating traits influencing maternal microbiome and the association between maternal microbiome  and infant eczema.
 
 Includes:
 
 - Associations between maternal predictors and:
-  - SGBs
   - Alpha diversity
+  - Beta diversity 
+  - SGBs
   - Functional pathways
 - Maternal microbiome prediction models for infant eczema
 
