@@ -1,4 +1,16 @@
-#### Part 6: Maternal gut microbiome is predictive of infant eczema 
-- Associations of predictors with SGB's, alpha diversity, pathways in mothers 
-- Prediction of eczema from maternal microbiome 
-- Scripts pertaining to figures: Figure 4
+## Maternal microbiome predicts eczema
+
+Scripts investigating traits influencing maternal microbiome and the association between maternal microbiome  and infant eczema.
+
+Includes:
+
+- Associations between maternal predictors and:
+  - Alpha diversity
+  - Beta diversity 
+  - SGBs
+  - Functional pathways
+- Maternal microbiome prediction models for infant eczema
+
+**Figures**
+
+- Figure 4
