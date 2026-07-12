@@ -2,7 +2,7 @@
 
 Code accompanying:
 
-> **Sinha T. et al. (2026).** *Maternal influences on infant gut microbiome and health in 714 mother–infant pairs in the Lifelines NEXT cohort.*
+> **Sinha T. et al. (2026).** *Maternal influences on infant gut microbiome and health*
 
 ---
 
@@ -28,11 +28,39 @@ Code accompanying:
 
 This repository contains the scripts used for the analyses presented in:
 
-**Sinha T. et al. (2026).** *Maternal influences on infant gut microbiome and health in 714 mother–infant pairs in the Lifelines NEXT cohort.*
+**Sinha T. et al. (2026).** *Maternal influences on infant gut microbiome and health*
 
 The repository includes code for data preprocessing, statistical analyses, visualization, and figure generation used throughout the manuscript.
 
+Here we present a comprehensive characterization of maternal and infant gut microbiome development during pregnancy and the first year of life, and identify the maternal, perinatal, and environmental factors shaping infant gut microbiome assembly and early health. In this study we metagenomically sequenced **4,526 longitudinal fecal samples** from **714 mother–infant pairs** in the Dutch **Lifelines NEXT (LLNEXT)** birth cohort, spanning **12 weeks of pregnancy to one year postpartum**. We integrated these data with **474 clinical and exposure variables**, together with **ultra-deep shotgun metagenomic sequencing of breast milk and vaginal microbiomes**, enabling a comprehensive analysis of maternal and infant microbiome dynamics.
+
+🤰 **Maternal gut microbiome dynamics:** The maternal gut microbiome undergoes only subtle compositional changes throughout pregnancy and the postpartum period and is primarily influenced by diet, infections, and pre-pregnancy smoking.
+
+🦠 **Maternal origin of the infant gut microbiome:** The maternal gut microbiome is the principal reservoir for infant gut bacterial strains, whereas transmission from the vaginal and breast milk microbiomes occurs only occasionally.
+
+🔗 **Determinants of strain transmission:** Mother–infant gut strain sharing is highly time-dependent, and higher maternal abundance of a bacterial species increases the likelihood of successful strain transmission to the infant. Maternal strains persist longer in infants and are enriched in functions potentially useful for infant health. 
+
+🩺 **Maternal microbiome and infant health:** The maternal gut microbiome is predictive of infant eczema, highlighting the importance of maternal microbial composition for early-life health outcomes.
+
+🚼 **Drivers of infant gut microbiome development:** Delivery mode and feeding mode are the primary determinants of infant gut microbiome composition and functional maturation, while maternal exposures also contribute to microbiome development.
+
+🏡 **Birth environment:** Among 585 vaginally delivered infants, 155 were born at home. Home birth was only moderately associated with infant gut microbiome composition, with effects comparable to other birth-related factors such as duration of pushing and rupture of membranes.
+
+🌱 **Central role of the mother:** Together, these findings demonstrate the central role of the mother and her microbiome in shaping the infant gut ecosystem, microbial transmission, functional development, and early health outcomes.
+
 ---
+
+# Cohort
+
+This study is based on the **Lifelines NEXT (LLNEXT)** cohort, a large prospective, population-based birth cohort in the Netherlands designed to investigate early-life determinants of health and disease.
+
+### Cohort overview and data catalogue
+
+https://umcgresearchdatacatalogue.nl/all/cohorts/LIFELINES_NEXT
+
+### Original cohort description
+
+https://pubmed.ncbi.nlm.nih.gov/32100173/
 
 # Repository structure
 
