@@ -9,4 +9,5 @@ Includes:
 
 **Figures**
 
+- Figure 3 d
 - Extended Data 5
