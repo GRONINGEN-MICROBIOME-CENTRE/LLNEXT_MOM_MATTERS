@@ -63,8 +63,7 @@ https://pubmed.ncbi.nlm.nih.gov/32100173/
 
 General utility functions and helper scripts used throughout the manuscript, including:
 
-- Shared functions
-- Plotting functions
+- Shared functions for associations with predictors and data transformations
 - Demo datasets
 
 ---
