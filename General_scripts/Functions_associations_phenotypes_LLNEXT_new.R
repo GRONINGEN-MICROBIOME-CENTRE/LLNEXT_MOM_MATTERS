@@ -1,5 +1,5 @@
-#### Functions used for associations with phenotypes ###
-# Description: All functions used for associations of microbiome with phenotypes in manuscript: Mom Matters: Maternal influences on infant gut microbiome and health in 714 mother-infant pairs in the Lifelines NEXT cohort
+#### Functions used for associations with predictors ###
+# Description: All functions used for associations of microbiome with phenotypes in manuscript: Maternal influences on infant gut microbiome and health 
 # Authors: Trishla Sinha, Alexander Kurilshikov 
 
 ####### Load libraries #####
