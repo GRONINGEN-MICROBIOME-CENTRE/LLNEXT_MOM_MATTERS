@@ -1,7 +1,15 @@
+################### PERMANOVA TCAM MOTEHRS ##########################
+# Author: T.Sinha 
+# Permanova analysis of TCAM factors with predictors in mothers 
+# Last updated: 28th September, 2025
 
-################################################################################
+# Load libraries 
+library(tidyverse)
+library(vegan)
+library(foreach)
+
+
 # Functions
-################################################################################
 
 do_preprocessing_mothers <- function(
     TCAM,
@@ -211,9 +219,8 @@ processed_mother_P12_B_M3 <- do_preprocessing_mothers(
   cross_selection = cross_selection_mothers
 )
 
-################################################################################
 # Maternal PERMANOVA analysis
-################################################################################
+
 
 set.seed(123)
 
@@ -225,9 +232,9 @@ permanova_simple_mother_P12_B_M3 <- do_permanova_simple(
 permanova_simple_mother_P12_B_M3$Phenotype <-
   rownames(permanova_simple_mother_P12_B_M3)
 
-################################################################################
+
 # Save results
-################################################################################
+
 
 write.table(
   permanova_simple_mother_P12_B_M3,
