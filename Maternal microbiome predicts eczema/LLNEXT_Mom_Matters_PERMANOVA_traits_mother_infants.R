@@ -1,6 +1,7 @@
 ################### PERMANOVA EACH TIMEPOINT INFANTS AND MOTHERS ##########################
 # Author: T.Sinha 
 # Last updated:23rd July, 2026
+# Analysis of permanova in each timepoint of mothers 
 # For TCAM analysis in mothers see separate section on TCAM in "Delivery mode shapes the infant gut microbiome" 
 
 library(tidyverse)
