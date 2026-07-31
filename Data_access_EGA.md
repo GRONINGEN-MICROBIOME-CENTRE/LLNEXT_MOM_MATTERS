@@ -1,5 +1,5 @@
 # Instructions on accessing sequencing data and phenotypes from EGA
-# Author: Sana Garmaeva, modified by Trishla Sinha
+### Author: Sana Garmaeva, modified by Trishla Sinha
 
 To access sample information, basic phenotypes, family structure, and quality-trimmed sequencing reads from EGA, you need to follow the instructions provided below:
 
