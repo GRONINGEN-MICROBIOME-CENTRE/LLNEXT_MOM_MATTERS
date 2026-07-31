@@ -1,7 +1,7 @@
 # Instructions on accessing sequencing data and phenotypes from EGA
 Author: Sana Garmaeva, modified by Trishla Sinha
 
-To access sample information, basic phenotypes, family structure, and quality-trimmed sequencing reads from EGA, you need to follow the instructions provided below:
+To access sample metadata and quality-trimmed sequencing reads from EGA, you need to follow the instructions provided below:
 
 ## Prerequisites
 **1**. **To request access to the data**, you will need [to register and validate an account at EGA](https://ega-archive.org/register/). The validation time for new accounts by EGA varies, but it usually takes around 18-24 hours.
