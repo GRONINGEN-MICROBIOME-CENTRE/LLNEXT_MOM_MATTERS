@@ -391,34 +391,6 @@ merged_results_dietary_clusters_factor <- bind_rows(all_data_frames_factor )
 merged_results_dietary_clusters_factor $FDR<-p.adjust (merged_results_dietary_clusters_factor $P, method = "fdr")
 
 
-dietary_patterns_LPA<-read.delim("~/Desktop/LLNEXT/Analysis/dietary_clusters/infant_LPA_dietary_clusters_new.txt")
-
-row.names(dietary_patterns_LPA)<-dietary_patterns_LPA$NG_ID
-cazyme_alr_null<- cazyme_alr_null[rownames(cazyme_alr_null) %in% rownames(dietary_patterns_LPA), ]
-
-
-caz_linear_model_cor_feeding_kcal_dietary_patterns_LPA_M6<- linear_model_taxa_cor_feeding_kcal_per_timepoint (dietary_patterns_LPA, "NG_ID", cazyme_alr_null, c("cluster_kday", "cluster_gday"), "M6")
-
-caz_linear_model_cor_feeding_kcal_dietary_patterns_LPA_M9<- linear_model_taxa_cor_feeding_kcal_per_timepoint (dietary_patterns_LPA, "NG_ID", cazyme_alr_null, c("cluster_kday", "cluster_gday"), "M9")
-
-caz_linear_model_cor_feeding_kcal_dietary_patterns_LPA_M12<- linear_model_taxa_cor_feeding_kcal_per_timepoint (dietary_patterns_LPA, "NG_ID", cazyme_alr_null, c("cluster_kday", "cluster_gday"), "M12")
-
-
-# Merging all dataframes of LPA analysis together for FDR correction 
-all_data_frames_LPA <- list(
-  caz_linear_model_cor_feeding_kcal_dietary_patterns_LPA_M6,
-  caz_linear_model_cor_feeding_kcal_dietary_patterns_LPA_M9,
-  caz_linear_model_cor_feeding_kcal_dietary_patterns_LPA_M12
-)
-merged_results_dietary_clusters_LPA <- bind_rows(all_data_frames_LPA )
-merged_results_dietary_clusters_LPA$FDR<-p.adjust (merged_results_dietary_clusters_LPA$P, method = "fdr")
-
-
-
-
-
-
-
 #### Plotting results of interest ######
 
 
@@ -537,26 +509,3 @@ pheatmap(mat_factor,
          border_color = NA,
          na_col = "grey90")
 
-# ---- LPA HEATMAP ----
-
-mat_LPA <- merged_results_dietary_clusters_LPA %>%
-  mutate(Feature_Time = paste0(Feature, "_", Timepoint)) %>%
-  select(Outcome, Feature_Time, Estimate) %>%
-  pivot_wider(names_from = Feature_Time, values_from = Estimate) %>%
-  column_to_rownames("Outcome") %>%
-  as.matrix()
-
-# Optional: remove all-NA rows/columns
-mat_LPA <- mat_LPA[rowSums(is.na(mat_LPA)) < ncol(mat_LPA), ]
-mat_LPA <- mat_LPA[, colSums(is.na(mat_LPA)) < nrow(mat_LPA)]
-
-# Plot heatmap for LPA
-pheatmap(mat_LPA,
-         main = "CAZyme ~ Dietary Patterns (LPA)",
-         color = colorRampPalette(c("blue", "white", "red"))(100),
-         cluster_rows = TRUE,
-         cluster_cols = TRUE,
-         fontsize_row = 6,
-         fontsize_col = 7,
-         border_color = NA,
-         na_col = "grey90")
