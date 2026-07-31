@@ -18,7 +18,13 @@ to all qualified researchers and will be governed by the provisions laid out in 
 ## Requesting data via EGA
 1. Login to EGA
    
-2. Request access to datasets from [LifeLines-NEXT data access commitee](e.g https://ega-archive.org/datasets/EGAD50000001187). To do so, press the 'Request Access' button on the page of the dataset of interest 
+2. Request access to datasets from [LifeLines-NEXT data access commitee] 
+
+- **Maternal and infant gut metagenomic sequencing data:** https://ega-archive.org/datasets/EGAD50000001187
+- **Vaginal swab and breast milk metagenomic sequencing data:** https://ega-archive.org/datasets/EGAD50000002469
+- **Metadata:** https://ega-archive.org/datasets/EGAD50000002677
+
+After selecting your dataset,  press the 'Request Access' button on the page of the dataset of interest 
 
 3. After receiving your **EGA Access Request** and filled **Application Form for Access to Lifelines NEXT Data**, the Data Access Committee will evaluate your request and grant access to the data. We try to do so within 2 weeks.
 
