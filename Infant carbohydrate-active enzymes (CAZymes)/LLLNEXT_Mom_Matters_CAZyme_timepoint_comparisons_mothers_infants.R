@@ -293,7 +293,6 @@ row.names(wide_data_matrix) <- filtered_all_wide$Bug
 custom_colors <- colorRampPalette(c("blue", "white", "red"))(50)
 
 
-# Nature format:
 
 pdf(
   "~/Desktop/LLNEXT/Analysis/results/figures/supplementary/ED_5d_cazyme_infant_timepoints.pdf",
