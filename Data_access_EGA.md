@@ -28,7 +28,7 @@ After selecting your dataset,  press the 'Request Access' button on the page of 
 
 3. After receiving your **EGA Access Request** and filled **Application Form for Access to Lifelines NEXT Data**, the Data Access Committee will evaluate your request and grant access to the data. We try to do so within 2 weeks.
 
-If there is no approval and no reply within 3 weeks from the date of your **EGA Access Request**, please email us:  t.sinha@rug.nl or a.zhernakova@umcg.nl
+If there is no approval and no reply within 3 weeks from the date of your **EGA Access Request**, please email us:  t.sinha@rug.nl or m.e.martinus@umcg.nl or a.zhernakova@umcg.nl
 
 
 ## Processing data from EGA
