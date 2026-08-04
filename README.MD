@@ -233,7 +233,7 @@ This controlled-access procedure ensures that metadata are used exclusively for 
 
 Detailed instructions describing the EGA application procedure are available at:
 
-https://github.com/GRONINGEN-MICROBIOME-CENTRE/LLNEXT_pilot/blob/main/Data_Access_EGA.md
+https://github.com/GRONINGEN-MICROBIOME-CENTRE/LLNEXT_MOM_MATTERS/blob/main/Data_access_EGA.md
 
 No fees are associated with access to the sequencing data or metadata.
 
