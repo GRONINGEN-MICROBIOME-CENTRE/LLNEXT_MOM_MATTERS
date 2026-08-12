@@ -2,8 +2,7 @@
 
 Code accompanying:
 
-> **Sinha T. et al. Nature. (2026).** *Maternal influences on infant gut microbiome and health. 
-https://www.nature.com/articles/s41586-026-10922-9*
+> *Sinha, T., Brushett, S., et al. Maternal influences on infant gut microbiome and health. Nature (2026). https://doi.org/10.1038/s41586-026-10922-9*
 
 ---
 
